@@ -1,0 +1,23 @@
+{
+  "name": "landing-page",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "http-server -p 8181"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com/thebabyclub/landing-page.git"
+  },
+  "author": "thebabyclub.co",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/thebabyclub/landing-page/issues"
+  },
+  "homepage": "https://gitlab.com/thebabyclub/landing-page#README",
+  "devDependencies": {
+    "http-server": "^0.9.0"
+  }
+}
