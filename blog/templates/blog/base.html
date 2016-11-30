@@ -1,5 +1,4 @@
 {% load staticfiles %}
-{% load static %}
 <html>
 		<head>
 			  <title>
@@ -29,7 +28,7 @@
 						     fjs.parentNode.insertBefore(js, fjs);
 					  }(document, 'script', 'facebook-jssdk'));
 				</script>
-				<script src=webhook.js></script>
+				<script src="webhook.js"></script>
 
         <div class = "page-header">
 					  {% if user.is_authenticated %}
